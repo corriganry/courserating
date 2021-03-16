@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CourseRating</string>
+    <string name="course_rating">Course Rating</string>
+    <string name="course_name">course name</string>
+    <string name="instructor_name">instructor name</string>
+    <string name="submit_rating">Submit Rating</string>
+    <string name="settings">Settings</string>
+    <string-array name="course_type">
+        <item>Select a course type…</item>
+        <item>General Education</item>
+        <item>Major Requirement</item>
+        <item>Minor Requirement</item>
+        <item>Elective</item>
+    </string-array>
+    <string name="add_a_review">Add a review</string>
+    <string name="welcome_message">Welcome to our course rating app. Press the button to add a new rating.</string>
+    <plurals name="star_rating">
+        <item quantity="zero">Rating: %d stars</item>
+        <item quantity="one">Rating: %d star</item>
+        <item quantity="other">Rating: %d stars</item>
+    </plurals>
+    <string name="list_heading">Course Ratings</string>
+
+    <!-- Titles for preferences -->
+    <string name="default_choice">Select the default rating</string>
+    <string name="theme_choice">Dark Theme</string>
+
+    <!-- Key name for rating preference in SharedPreferences -->
+    <string name="pref_rating_key" translatable="false">rating</string>
+    <string name="pref_theme_key" translatable="false">dark</string>
+
+
+    <!-- Labels and values for preference list -->
+    <string-array name="rating_labels">
+        <item>One Star</item>
+        <item>Two Stars</item>
+        <item>Three Stars</item>
+        <item>Four Stars</item>
+        <item>Five Stars</item>
+    </string-array>
+
+    <string-array name="rating_values">
+        <item>"1</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="added_rating">Added Rating</string>
+    <string name="updated_rating">Updated Rating</string>
+    <string name="add_update_rating">Add/Update Rating</string>
+
+
+</resources>
